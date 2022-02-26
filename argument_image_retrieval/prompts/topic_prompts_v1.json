@@ -1,0 +1,252 @@
+{
+    "1": {
+        "title": "Should teachers get tenure?",
+        "PRO": "Pros: Protects academic freedom; Encourages quality teaching; Promotes job security.",
+        "CON": "Cons: Limits teacher mobility; Can be abused; Can lead to poor teaching."
+    },
+    "2": {
+        "title": "Is vaping with e-cigarettes safe?",
+        "PRO": "Pros: Helps quit smoking; Safer; Reduce health care costs; Create jobs",
+        "CON": "Cons: Addiction to nicotine; Introducing to smoking; Causes health risks, depression, lung disease; Explosion."
+    },
+    "3": {
+        "title": "Should insider trading be allowed?",
+        "PRO": "Pros: Allows for more efficient markets; Provides incentives for company insiders to improve performance; Higher stock prices",
+        "CON": "Cons: Market manipulation; Unfairness; Loss of public trust; Too big to fail"
+    },
+    "4": {
+        "title": "Should corporal punishment be used in schools?",
+        "PRO": "Pros: Discipline children; Teaches respect; Maintains order in classrooms",
+        "CON": "Cons: Can be excessive; Physical and emotional damage; Creates bullies; Non-effective in the long run."
+    },
+    "5": {
+        "title": "Should social security be privatized?",
+        "PRO": "",
+        "CON": ""
+    },
+    "6": {
+        "title": "Is a college education worth it?",
+        "PRO": "",
+        "CON": ""
+    },
+    "7": {
+        "title": "Should felons who have completed their sentence be allowed to vote?",
+        "PRO": "",
+        "CON": ""
+    },
+    "8": {
+        "title": "Should abortion be legal?",
+        "PRO": "Yes, because: Abortion is a fundamental right; Safe; Empowers and protects women; Reduces injury and death.",
+        "CON": "No, because: Abortion is murder; Psychological damage; Discrimination; Irresponsible; Causes medical problems."
+    },
+    "9": {
+        "title": "Should students have to wear school uniforms?",
+        "PRO": "",
+        "CON": ""
+    },
+    "10": {
+        "title": "Should any vaccines be required for children?",
+        "PRO": "",
+        "CON": ""
+    },
+    "11": {
+        "title": "Should performance-enhancing drugs be accepted in sports?",
+        "PRO": "",
+        "CON": ""
+    },
+    "12": {
+        "title": "Should birth control pills be available over the counter?",
+        "PRO": "",
+        "CON": ""
+    },
+    "13": {
+        "title": "Can alternative energy effectively replace fossil fuels?",
+        "PRO": "",
+        "CON": ""
+    },
+    "14": {
+        "title": "Is sexual orientation determined at birth?",
+        "PRO": "",
+        "CON": ""
+    },
+    "15": {
+        "title": "Should animals be used for scientific or commercial testing?",
+        "PRO": "",
+        "CON": ""
+    },
+    "16": {
+        "title": "Should prescription drugs be advertised directly to consumers?",
+        "PRO": "",
+        "CON": ""
+    },
+    "17": {
+        "title": "Should recreational marijuana be legal?",
+        "PRO": "",
+        "CON": ""
+    },
+    "18": {
+        "title": "Should churches remain tax-exempt?",
+        "PRO": "",
+        "CON": ""
+    },
+    "19": {
+        "title": "Should gay marriage be legal?",
+        "PRO": "",
+        "CON": ""
+    },
+    "20": {
+        "title": "Is drinking milk healthy for humans?",
+        "PRO": "",
+        "CON": ""
+    },
+    "21": {
+        "title": "Is human activity primarily responsible for global climate change?",
+        "PRO": "",
+        "CON": ""
+    },
+    "22": {
+        "title": "Is a two-state solution an acceptable solution to the Israeli-Palestinian conflict?",
+        "PRO": "",
+        "CON": ""
+    },
+    "23": {
+        "title": "Should euthanasia or physician-assisted suicide be legal?",
+        "PRO": "",
+        "CON": ""
+    },
+    "24": {
+        "title": "Does lowering the federal corporate income tax rate create jobs?",
+        "PRO": "",
+        "CON": ""
+    },
+    "25": {
+        "title": "Should education be free?",
+        "PRO": "",
+        "CON": ""
+    },
+    "26": {
+        "title": "Do standardized tests improve education?",
+        "PRO": "",
+        "CON": ""
+    },
+    "27": {
+        "title": "Should more gun control laws be enacted?",
+        "PRO": "",
+        "CON": ""
+    },
+    "28": {
+        "title": "Should prostitution be legal?",
+        "PRO": "",
+        "CON": ""
+    },
+    "29": {
+        "title": "Should the government allow illegal immigrants to become citizens?",
+        "PRO": "",
+        "CON": ""
+    },
+    "30": {
+        "title": "Should adults have the right to carry a concealed handgun?",
+        "PRO": "",
+        "CON": ""
+    },
+    "31": {
+        "title": "Is obesity a disease?",
+        "PRO": "",
+        "CON": ""
+    },
+    "32": {
+        "title": "Do electronic voting machines improve the voting process?",
+        "PRO": "",
+        "CON": ""
+    },
+    "33": {
+        "title": "Should people become vegetarian?",
+        "PRO": "",
+        "CON": ""
+    },
+    "34": {
+        "title": "Are social networking sites good for our society?",
+        "PRO": "",
+        "CON": ""
+    },
+    "35": {
+        "title": "Do violent video games contribute to youth violence?",
+        "PRO": "",
+        "CON": ""
+    },
+    "36": {
+        "title": "Is golf a sport?",
+        "PRO": "",
+        "CON": ""
+    },
+    "37": {
+        "title": "Is cell phone radiation safe?",
+        "PRO": "",
+        "CON": ""
+    },
+    "38": {
+        "title": "Should marijuana be a medical option?",
+        "PRO": "",
+        "CON": ""
+    },
+    "39": {
+        "title": "Should the federal minimum wage be increased?",
+        "PRO": "",
+        "CON": ""
+    },
+    "40": {
+        "title": "Should the death penalty be allowed?",
+        "PRO": "",
+        "CON": ""
+    },
+    "41": {
+        "title": "Should student loan debt be easier to discharge in bankruptcy?",
+        "PRO": "",
+        "CON": ""
+    },
+    "42": {
+        "title": "Should fighting be allowed in hockey?",
+        "PRO": "",
+        "CON": ""
+    },
+    "43": {
+        "title": "Should bottled water be banned?",
+        "PRO": "",
+        "CON": ""
+    },
+    "44": {
+        "title": "Should election day be a national holiday?",
+        "PRO": "",
+        "CON": ""
+    },
+    "45": {
+        "title": "Should the penny stay in circulation?",
+        "PRO": "",
+        "CON": ""
+    },
+    "46": {
+        "title": "Should net neutrality be restored?",
+        "PRO": "",
+        "CON": ""
+    },
+    "47": {
+        "title": "Is homework beneficial?",
+        "PRO": "",
+        "CON": ""
+    },
+    "48": {
+        "title": "Should the voting age be lowered?",
+        "PRO": "",
+        "CON": ""
+    },
+    "49": {
+        "title": "Should body cameras be mandatory for police?",
+        "PRO": "",
+        "CON": ""
+    },
+    "50": {
+        "title": "Should everyone get a universal basic income?",
+        "PRO": "",
+        "CON": ""
+    }
+}
