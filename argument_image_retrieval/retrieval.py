@@ -16,7 +16,7 @@ DUMMY_IMAGE = Image.open('./dataset/images/I00/I00a534edc86bf5cd/image.png').con
 
 def stance_reranking(model, processor, top_image_embeddings, step_one_ranking, stance):
     image_embeds = torch.from_numpy(top_image_embeddings).to(device)
-    image_embeds = image_embeds / image_embeds.norm(dim=-1, keepdim=True)
+    # image_embeds = image_embeds / image_embeds.norm(dim=-1, keepdim=True)
     
     if stance == 'PRO':
         texts = ['Good; Positive; Agree']
@@ -47,7 +47,7 @@ def run_retrieval(model, processor, image_ids, image_embeddings, topic_prompts, 
         k1 = 10
 
     image_embeds = torch.from_numpy(image_embeddings).to(device)
-    image_embeds = image_embeds / image_embeds.norm(dim=-1, keepdim=True)
+    # image_embeds = image_embeds / image_embeds.norm(dim=-1, keepdim=True)
     
     result_lines = []
     for topic_id, topic in topic_prompts.items():
