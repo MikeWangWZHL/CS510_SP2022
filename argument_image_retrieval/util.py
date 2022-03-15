@@ -67,11 +67,13 @@ if __name__ == "__main__":
     # result_txt = '/shared/nas/data/m1/wangz3/cs510_sp2022/argument_image_retrieval/output/test-v1.txt'
     # result_txt = '/shared/nas/data/m1/wangz3/cs510_sp2022/argument_image_retrieval/output/test-v1-with-stance-reranking-k1-50.txt'
     # result_txt = '/shared/nas/data/m1/wangz3/cs510_sp2022/argument_image_retrieval/output/test-v1-with-stance-reranking-k1-30.txt'
-    result_name = 'test_with_arg_topic_ranking_first-40_alpha-1'
-    result_txt = f'/shared/nas/data/m1/wangz3/cs510_sp2022/argument_image_retrieval/output/{result_name}.txt'
-    image_root = '/shared/nas/data/m1/wangz3/cs510_sp2022/argument_image_retrieval/dataset/images'
-    output_vis_dir_root = f'./visualization/{result_name}'
-    visualize_result(result_txt, image_root, output_vis_dir_root)
+    topic_k = 20
+    for alpha in [0.1]:
+        result_name = f'test_with_arg_topic_ranking_first-{topic_k}_alpha-{alpha}'
+        result_txt = f'/shared/nas/data/m1/wangz3/cs510_sp2022/argument_image_retrieval/output/{result_name}.txt'
+        image_root = '/shared/nas/data/m1/wangz3/cs510_sp2022/argument_image_retrieval/dataset/images'
+        output_vis_dir_root = f'./visualization/{result_name}'
+        visualize_result(result_txt, image_root, output_vis_dir_root)
 
     ''' topic prompts empty json '''
     # topic_prompts_empty_template(json.load(open('/shared/nas/data/m1/wangz3/cs510_sp2022/argument_image_retrieval/topic_id_2_topic.json')))

@@ -348,18 +348,19 @@ if __name__ == '__main__':
     #     if_second_stage_reranking = reranking
     # )
 
-    alpha = 1
-    topic_k = 40
-    run_retrieval_with_argumenttext_stance_prompt_topic_ranking_first(
-        model, 
-        processor, 
-        image_ids, 
-        image_embeddings, 
-        image_id_2_argument_text_embedding, 
-        alpha, 
-        topic_k,
-        topic_prompts, 
-        topic_id_2_data, 
-        device,
-        output_path = f'./output/test_with_arg_topic_ranking_first-{topic_k}_alpha-{alpha}.txt'
-    )
+    # for alpha in [0.1,0.3,0.5,0.7,0.9]:
+    for alpha in [0.1]:
+        topic_k = 20
+        run_retrieval_with_argumenttext_stance_prompt_topic_ranking_first(
+            model, 
+            processor, 
+            image_ids, 
+            image_embeddings, 
+            image_id_2_argument_text_embedding, 
+            alpha, 
+            topic_k,
+            topic_prompts, 
+            topic_id_2_data, 
+            device,
+            output_path = f'./output/test_with_arg_topic_ranking_first-{topic_k}_alpha-{alpha}.txt'
+        )
