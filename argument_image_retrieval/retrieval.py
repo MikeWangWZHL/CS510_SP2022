@@ -325,9 +325,16 @@ if __name__ == '__main__':
     device = torch.device(dev)
 
     ''' set up model'''
-    model = CLIPModel.from_pretrained("openai/clip-vit-base-patch32")
+    # # clip base
+    model_name = "openai/clip-vit-base-patch32"
+    # clip Vit-L/14
+    # model_name = "openai/clip-vit-large-patch14"
+
+    print(f'loading {model_name}...')
+    model = CLIPModel.from_pretrained(model_name)
+    model.eval()
     model.to(device)
-    processor = CLIPProcessor.from_pretrained("openai/clip-vit-base-patch32")
+    processor = CLIPProcessor.from_pretrained(model_name)
 
     ''' run retrieval '''
     # run_retrieval(model, processor, image_ids, image_embeddings, topic_prompts, topic_id_2_data, device, output_path = output_path)
